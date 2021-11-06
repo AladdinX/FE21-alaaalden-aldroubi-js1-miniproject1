@@ -40,7 +40,7 @@ for (let i = 0; i < 10; i++) {
   ul1.style.marginBottom = '50px';
   ul1.style.width = '50px';
   ul1.style.textAlign = 'left';
-  ul1.style.padding = '0px';
+  ul1.style.padding = '0';
   warper.append(ul1)
 }
 
@@ -67,7 +67,7 @@ for (let i = 9; i > -1; i--) {
   ul2.style.marginBottom = '50px';
   ul2.style.width = '50px';
   ul2.style.textAlign = 'center';
-  ul2.style.padding = '0px';
+  ul2.style.padding = '0';
   warper.append(ul2);
 }
 
@@ -93,6 +93,6 @@ for (let i = 0; i < numbers.length; i++) {
   ul3.style.listStyle = 'none';
   ul3.style.width = '50px';
   ul3.style.textAlign = 'right';
-  ul3.style.padding = '0px';
+  ul3.style.padding = '0';
   warper.append(ul3);
 }
