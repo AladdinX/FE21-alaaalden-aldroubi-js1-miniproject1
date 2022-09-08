@@ -1,5 +1,6 @@
 const body = document.querySelector('body');
 const warper = document.createElement('div');
+
 for (let i = 0; i < 5; i++) {
   const h1 = document.createElement('h1');
   h1.innerText = `Rad ${i + 1}`;
@@ -16,6 +17,7 @@ body.appendChild(warper);
 warper.style.border = '2px solid black';
 warper.style.display = 'flex';
 warper.style.justifyContent = 'space-around';
+
 for (let i = 0; i < 3; i++) {
   const ul = document.createElement('ul');
   ul.style.listStyleType = 'none';
@@ -26,6 +28,7 @@ for (let i = 0; i < 3; i++) {
   ul.style.width = '50px';
   ul.style.padding = '0';
   warper.appendChild(ul);
+  
   if (i == 0) {
     for (let i = 0; i < 10; i++) {
       let li = document.createElement('li');
@@ -41,7 +44,7 @@ for (let i = 0; i < 3; i++) {
       }
       ul.appendChild(li);
     }
-  } else if (i == 1) {
+     } else if (i == 1) {
     for (let i = 9; i > -1; i--) {
       let li = document.createElement('li');
       li.innerText = i;
